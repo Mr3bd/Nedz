@@ -22,7 +22,7 @@ Thanks to the "One Step Forward" center for helping us by upgrading the idea wit
     8- GetX as a State Management
 
 <p align="center">
-  <img width="200" height="200" src="http://www.fillmurray.com/460/300](https://user-images.githubusercontent.com/105454259/181508414-c3b7448d-b7d1-4be9-a240-8ab64b0e2fd8.png">
+  <img width="200" height="200" src="http://www.fillmurray.com/460/300]("https://user-images.githubusercontent.com/105454259/181508414-c3b7448d-b7d1-4be9-a240-8ab64b0e2fd8.png">
 </p>
 
 
