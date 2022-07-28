@@ -297,21 +297,21 @@ class DashboardView extends GetView<DashboardController> {
               },
             ),
             SpeedDialChild(
+              child: SvgPicture.asset('assets/svg/speech-bubble.svg'),
+              foregroundColor: Colors.transparent,
+              backgroundColor: Colors.transparent,
+              //      label: 'Data',
+              onTap: () {
+                Get.to(() => ChatView(), binding: ChatBinding());
+              },
+            ),
+            SpeedDialChild(
               child: SvgPicture.asset('assets/svg/bar-graph.svg'),
               foregroundColor: Colors.transparent,
               backgroundColor: Colors.transparent,
               //      label: 'Data',
               onTap: () {
                 Get.to(() => ABFeelingsView(), binding: ABFeelingsBinding());
-              },
-            ),
-            SpeedDialChild(
-              child: SvgPicture.asset('assets/svg/speak.svg'),
-              foregroundColor: Colors.transparent,
-              backgroundColor: Colors.transparent,
-              //      label: 'Data',
-              onTap: () {
-                Get.to(() => ChatView(), binding: ChatBinding());
               },
             ),
             SpeedDialChild(
