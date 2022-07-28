@@ -17,5 +17,4 @@ A project to help autistic patients express their needs
 # Supported by: Princess Sumaya University for Technology
 # Participation in Amazonteckathon
 
-
-![logo (3) (1)](https://user-images.githubusercontent.com/105454259/181508217-7205e912-9616-4476-8c27-62a52c07e051.png)
+![NedzLogo](https://user-images.githubusercontent.com/105454259/181508414-c3b7448d-b7d1-4be9-a240-8ab64b0e2fd8.png)
