@@ -43,7 +43,7 @@ class ABSurveyView extends GetView<ABSurveyController> {
                   children: [
                     Expanded(
                       child: Text(
-                        '1) Please enter the kid name',
+                        '1) Please enter the kid\'s name',
                         style: Get.textTheme.headline4!
                             .copyWith(fontWeight: FontWeight.w500),
                       ),
@@ -78,7 +78,7 @@ class ABSurveyView extends GetView<ABSurveyController> {
                         Icons.person,
                         color: AppColors.grey.withOpacity(0.3),
                       ),
-                      hintText: "Kid Name",
+                      hintText: "Kid\'s Name",
                       hintStyle: TextStyle(
                         color: AppColors().lightgrey,
                       ),
