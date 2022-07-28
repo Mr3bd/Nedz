@@ -151,7 +151,7 @@ class AddCategoryFromLocalController extends GetxController {
                         authManager.commonTools.ShowWarningDialogMutliButtons(
                             context,
                             'Result',
-                            'The result it\'s "${text.value}", do you want set it?',
+                            'The result it\'s "${text.value}", want to set it?',
                             'Yes',
                             'No',
                             AppColors.blue,

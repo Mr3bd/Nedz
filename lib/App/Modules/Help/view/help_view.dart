@@ -57,7 +57,7 @@ class HelpView extends StatelessWidget {
               title: 'Microphone: searches for the word he is saying'),
           HelpSingleItem(
               path: 'assets/svg/photo.svg',
-              title: 'Add photo: He can capture or add a photo for the things'
+              title: 'Add photo: He can add a photo for the things'
                   ' he wants to save in his own dictionary'),
           HelpSingleItem(
               path: 'assets/svg/speech-bubble.svg',
@@ -68,7 +68,7 @@ class HelpView extends StatelessWidget {
               title:
                   'Data: counts the number of times he chooses the emoji and graph it'),
           HelpSingleItem(
-              path: 'assets/svg/book.svg',
+              path: 'assets/svg/book1.svg',
               title:
                   'Dictionary: the place where pictures & icons are saved in '
                   'the way he says it'),
@@ -100,7 +100,7 @@ class HelpView extends StatelessWidget {
           TextIn(
               title:
                   "4- You can use the \"Chat\" icon when the kid is in a bad mood, it gives you some suggestions"
-                  " for his behaviour and adds a counter for the sad or angry emojis that appears on the \"Data\" icon if you pressed the yes button "),
+                  " for his behaviour and adds a counter for the sad or angry emojis that appears on the \"Data\" icon if you pressed the yes button. "),
           TextIn(
               title:
                   "5- You can check your kid's emotions from the saved data if he had ever chosen an emoji"

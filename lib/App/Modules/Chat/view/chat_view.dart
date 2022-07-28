@@ -268,7 +268,8 @@ class ChatView extends GetView<ChatController> {
                                   controller.secondQuestion.value == 1))) ||
                           (controller.firstQuestion.value == 2 &&
                               controller.secondQuestion.value == 2)
-                      ? MessageWidget(text: 'We are sorry... We hope can help!')
+                      ? MessageWidget(
+                              text: 'We are sorry... We hope we can help!')
                           .marginOnly(
                               top: (controller.firstQuestion.value == 2 &&
                                       controller.secondQuestion.value == 2)
