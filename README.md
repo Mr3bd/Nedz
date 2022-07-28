@@ -9,7 +9,10 @@ Nedz can inform parents or caregivers what the kid chooses by sending an email f
 
 Thanks to the "One Step Forward" center for helping us by upgrading the idea with their experience & allowed us to deal with their autistic kids.
 
+
 ## Getting Started
+    
+    - This app developed using Flutter Framework
 
 # The tools & techniques used in the project
     1- Firebase ML Kit
