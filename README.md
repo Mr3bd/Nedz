@@ -25,6 +25,7 @@ Thanks to the "One Step Forward" center for helping us by upgrading the idea wit
   <img width="200" height="200" src="https://user-images.githubusercontent.com/105454259/181508414-c3b7448d-b7d1-4be9-a240-8ab64b0e2fd8.png" >
 </p>
 
+Video => https://drive.google.com/file/d/1Nxcfanqjf6BA0rJ7RpVnVoE6O2kjBjRr/view?usp=drivesdk
 
 ### Developed By: Abdullrahman Wasfi & Layan Alhimsi
 ### Supported by: Princess Sumaya University for Technology
