@@ -10,6 +10,8 @@ import 'package:neds/App/Modules/AddCategoryFromLocal/binding/add_category_from_
 import 'package:neds/App/Modules/AddCategoryFromLocal/view/add_category_from_local_view.dart';
 import 'package:neds/App/Modules/Category/binding/category_binding.dart';
 import 'package:neds/App/Modules/Category/view/category_view.dart';
+import 'package:neds/App/Modules/Chat/binding/chat_binding.dart';
+import 'package:neds/App/Modules/Chat/view/chat_view.dart';
 import 'package:neds/App/Modules/Dashboard/controller/dashboard_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -301,6 +303,15 @@ class DashboardView extends GetView<DashboardController> {
               //      label: 'Data',
               onTap: () {
                 Get.to(() => ABFeelingsView(), binding: ABFeelingsBinding());
+              },
+            ),
+            SpeedDialChild(
+              child: SvgPicture.asset('assets/svg/speak.svg'),
+              foregroundColor: Colors.transparent,
+              backgroundColor: Colors.transparent,
+              //      label: 'Data',
+              onTap: () {
+                Get.to(() => ChatView(), binding: ChatBinding());
               },
             ),
             SpeedDialChild(

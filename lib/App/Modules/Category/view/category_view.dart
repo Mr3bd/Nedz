@@ -53,7 +53,7 @@ class CategoryView extends GetView<CategoryController> {
                               arguments: [controller.arguments[0], index]);
                         } else if (controller.arguments[0] == 6) {
                           controller.authManager.api.sendNotification(
-                              'Nedz\n${controller.currentChild.value.name} feels ${controller.categories[index].realName}',
+                              '${controller.currentChild.value.name} feels ${controller.categories[index].realName}',
                               controller.currentChild.value.phone!);
                           await controller
                               .addCount(controller.categories[index].realName!)

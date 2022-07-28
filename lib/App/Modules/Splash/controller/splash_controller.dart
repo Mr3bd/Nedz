@@ -24,7 +24,7 @@ class SplashController extends GetxController {
   Future<void> onInit() async {
     await initializeSettings();
     Future.delayed(
-        Duration(seconds: _authmanager.isLogged.value == true ? 5 : 5), () {
+        Duration(seconds: _authmanager.isLogged.value == true ? 0 : 5), () {
       if (_authmanager.isLogged.value) {
         if (_authmanager.autisticPatients.isEmpty) {
           ABSurveyBinding().dependencies();

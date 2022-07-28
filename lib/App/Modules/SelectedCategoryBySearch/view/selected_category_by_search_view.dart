@@ -78,7 +78,7 @@ class SelectedCategoryBySearchView
                           InkWell(
                             onTap: () {
                               controller.authManager.api.sendNotification(
-                                  'Nedz\n${controller.currentChild.value.name} wants ${controller.categoryBySearchController.categories[controller.arguments[0]].realName}',
+                                  '${controller.currentChild.value.name} wants ${controller.categoryBySearchController.categories[controller.arguments[0]].realName}',
                                   controller.currentChild.value.phone!);
                               Get.offAll(() => DashboardView(),
                                   binding: DashboardBinding());

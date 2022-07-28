@@ -65,7 +65,7 @@ class SelectedCategoryView extends GetView<SelectedCategoryController> {
                           InkWell(
                             onTap: () {
                               controller.authManager.api.sendNotification(
-                                  'Nedz\n${controller.currentChild.value.name} wants ${controller.categoryController.categories[controller.arguments[1]].realName}',
+                                  '${controller.currentChild.value.name} wants ${controller.categoryController.categories[controller.arguments[1]].realName}',
                                   controller.currentChild.value.phone!);
                               Get.offAll(() => DashboardView(),
                                   binding: DashboardBinding());
