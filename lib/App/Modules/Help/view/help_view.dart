@@ -100,7 +100,7 @@ class HelpView extends StatelessWidget {
           TextIn(
               title:
                   "4- You can use the \"Chat\" icon when the kid is in a bad mood, it gives you some suggestions"
-                  " for his behaviour."),
+                  " for his behaviour and adds a counter for the sad or angry emojis that appears on the \"Data\" icon if you pressed the yes button "),
           TextIn(
               title:
                   "5- You can check your kid's emotions from the saved data if he had ever chosen an emoji"

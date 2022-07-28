@@ -24,7 +24,7 @@ class SplashController extends GetxController {
   Future<void> onInit() async {
     await initializeSettings();
     Future.delayed(
-        Duration(seconds: _authmanager.isLogged.value == true ? 0 : 5), () {
+        Duration(seconds: _authmanager.isLogged.value == true ? 1 : 5), () {
       if (_authmanager.isLogged.value) {
         if (_authmanager.autisticPatients.isEmpty) {
           ABSurveyBinding().dependencies();
@@ -83,7 +83,7 @@ class SplashController extends GetxController {
                     Text(
                       'Abdullrahman & Layan',
                       style: Get.textTheme.headline5!.copyWith(
-                          color: AppColors.darkGrey.withOpacity(0.8),
+                          color: AppColors.darkGrey.withOpacity(0.6),
                           fontWeight: FontWeight.bold),
                     ),
                   ],
